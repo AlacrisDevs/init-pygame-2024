@@ -2,6 +2,7 @@
 
 # init 2024 - mängu töötuba
 
+- [Abivahendid](#abivahendid)
 - [Sissejuhatus](#sissejuhatus)
 - [Ülesanded](#%C3%BClesanded)
   - [🐦 Linnu loomine](#-linnu-loomine)
@@ -11,7 +12,9 @@
   - [🔢 Skoori arvutamine](#-skoori-arvutamine)
   - [🔊 Heliefektide lisamine](#-heliefektide-lisamine)
   - [⭐ Boonusülesanded](#-boonus%C3%BClesanded)
-- [Abivahendid](#abivahendid)
+
+## Abivahendid
+Kõige olulisem abivahend selles töötoas on **oskus küsida küsimusi**. Küsimusi soovitame julgelt küsida klassis ringi liikuvate **abiõppejõudude käest**, kes on meeleldi valmis vastama kõigile küsimustele, mis tekkida võivad. Ära tunned abiõppejõu musta TalTechi T-särgi või pusa järgi. Kui abiõppejõud Sinu küsimusele vastata ei oska, siis tasub appi võtta [**Dr. Google**](https://google.ee). Väga suure tõenäosusega on keegi sama probleemiga juba maadelnud, ning sellele ka lahenduse leidnud. Veel võid abi leida [PyGame ametlikust dokumentatsioonist](https://www.pygame.org/docs/). Ning kui jääd kõigile abivahenditele vaatamata siiski mingi asjaga hätta, siis meie projekti kaustast [`solutions`](https://github.com/taltech-coding/init-pygame-2024/tree/main/solutions) leiad ka ülesannete koostajate lahendused.
 
 ## Sissejuhatus
 Oled praktikant ja sinu ülesandeks on anda viimane lihv tulevasele AAAA mängule "Flappy Ago: init2024 edition"!
@@ -218,6 +221,3 @@ flap_sound.play()
 - 👑 Lisa maapind.
 - 👑 Tee nii, et lind vaatab liikumise suunas üles/alla.
 - 👑 Lisa visuaalseid efekte? :)
-
-## Abivahendid
-Kõige olulisem abivahend selles töötoas on **oskus küsida küsimusi**. Küsimusi soovitame julgelt küsida klassis ringi liikuvate **abiõppejõudude käest**, kes on meeleldi valmis vastama kõigile küsimustele, mis tekkida võivad. Ära tunned abiõppejõu musta TalTechi T-särgi või pusa järgi. Kui abiõppejõud Sinu küsimusele vastata ei oska, siis tasub appi võtta [**Dr. Google**](https://google.ee). Väga suure tõenäosusega on keegi sama probleemiga juba maadelnud, ning sellele ka lahenduse leidnud. Veel võid abi leida [PyGame ametlikust dokumentatsioonist](https://www.pygame.org/docs/). Ning kui jääd kõigile abivahenditele vaatamata siiski mingi asjaga hätta, siis meie projekti kaustast [`solutions`](https://github.com/taltech-coding/init-pygame-2024/tree/main/solutions) leiad ka ülesannete koostajate lahendused.
