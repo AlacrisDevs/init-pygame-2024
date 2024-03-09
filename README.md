@@ -5,6 +5,7 @@
 - [Abivahendid](#abivahendid)
 - [Sissejuhatus](#sissejuhatus)
 - [Ülesanded](#%C3%BClesanded)
+  - [🐍 PyGame paigaldamine](#-pygame-paigaldamine)
   - [🐦 Linnu loomine](#-linnu-loomine)
   - [🦅 Linnulennu loomine](#-linnulennu-loomine)
   - [🏃‍♂️💨 Torud liikuma](#%EF%B8%8F-torud-liikuma)
