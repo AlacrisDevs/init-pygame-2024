@@ -2,7 +2,15 @@
 
 # init 2024 - mängu töötuba
 
-[TOC]
+- [Sissejuhatus](#sissejuhatus)
+- [Ülesanded](#%C3%BClesanded)
+  - [🐦 Linnu loomine](#-linnu-loomine)
+  - [🦅 Linnulennu loomine](#-linnulennu-loomine)
+  - [🏃‍♂️💨 Torud liikuma](#%EF%B8%8F-torud-liikuma)
+  - [👹 Uute torude loomine](#-uute-torude-loomine)
+  - [🔢 Skoori arvutamine](#-skoori-arvutamine)
+  - [🔊 Heliefektide lisamine](#-heliefektide-lisamine)
+  - [⭐ Boonusülesanded](#-boonus%C3%BClesanded)
 
 ## Sissejuhatus
 Oled praktikant ja sinu ülesandeks on anda viimane lihv tulevasele AAAA mängule "Flappy Ago: init2024 edition"!
