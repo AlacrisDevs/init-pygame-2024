@@ -29,6 +29,10 @@ Mäng on loodud mängumootor [PyGame](https://www.pygame.org/docs/) abil.
 
 Oleme sulle ette valmistanud ülesanded ning ka lahendamiseks vajalikud juhtnöörid. Kui vajad abi, tõsta julgelt käsi 🙋‍♀️ või küsi Dr. Google-ilt. Peaasi on see, et täna siit midagi õpiksid!
 
+### 🐍 PyGame paigaldamine
+
+Enne programmeerima hakkamist tuleb meil avada kooditöötlusprogramm PyCharm, laadida alla meie kood, ning paigaldada PyGame. Kõik kolm sammu teeme koos tunnis läbi. PyGame paigaldamiseks on vajalik avada PyCharmis Terminal (all vasakul, näeb välja nagu `>_`. Sinna tuleb sisestada käsklus `pip install pygame` ning vajutada ENTER. Kui tekib mingi probleem, siis tõsta julgelt käsi, kõik abiõppejõud ongi siin selleks, et teid aidata! Pärast seda saame hakata mängu koodi kallal tööd tegema. 
+
 ### 🐦 Linnu loomine
 
 Esiteks on meil vaja sisse laadida pilt linnukesest. Meil on sulle juba `images` kaustas ette antud pilt Agost, keda võid "linnukesena" kasutada: `images/bird.png`.
