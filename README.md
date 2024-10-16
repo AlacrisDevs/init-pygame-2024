@@ -1,6 +1,6 @@
-![FlappyAgo - init2024 edition](images/logo.png "FlappyAgo - init2024 edition")
+![Flappy Tux - VOCO edition](images/logo.png "Flappy Tux - VOCO edition")
 
-# init 2024 - mängu töötuba
+# VOCO - mängu töötuba
 
 - [Abivahendid](#abivahendid)
 - [Sissejuhatus](#sissejuhatus)
@@ -15,10 +15,10 @@
   - [⭐ Boonusülesanded](#-boonus%C3%BClesanded)
 
 ## Abivahendid
-Kõige olulisem abivahend selles töötoas on **oskus küsida küsimusi**. Küsimusi soovitame julgelt küsida klassis ringi liikuvate **abiõppejõudude käest**, kes on meeleldi valmis vastama kõigile küsimustele, mis tekkida võivad. Ära tunned abiõppejõu musta TalTechi T-särgi või pusa järgi. Kui abiõppejõud Sinu küsimusele vastata ei oska, siis tasub appi võtta [**Dr. Google**](https://google.ee). Väga suure tõenäosusega on keegi sama probleemiga juba maadelnud, ning sellele ka lahenduse leidnud. Veel võid abi leida [PyGame ametlikust dokumentatsioonist](https://www.pygame.org/docs/). Ning kui kõigile abivahenditele vaatamata siiski mingi asjaga hätta jääd, siis meie projekti kaustast [`solutions`](https://github.com/taltech-coding/init-pygame-2024/tree/main/solutions) võid leida ka ülesannete koostajate lahendused. Tunnis kasutatud slaidiesitlust on võimalik järele vaadata [siit](https://docs.google.com/presentation/d/1MSRtW1zZlcZdZHiwaccJkT_dcthkeqVrZ55NKDN0sG4/edit)!
+Kõige olulisem abivahend selles töötoas on **oskus küsida küsimusi**. Küsimusi soovitame julgelt küsida klassis ringi liikuvate **abiõppejõudude käest**, kes on meeleldi valmis vastama kõigile küsimustele, mis tekkida võivad. Ära tunned abiõppejõu rohelise TalTechi pusa järgi. Kui abiõppejõud Sinu küsimusele vastata ei oska, siis tasub appi võtta [**Dr. Google**](https://google.ee). Väga suure tõenäosusega on keegi sama probleemiga juba maadelnud, ning sellele ka lahenduse leidnud. Veel võid abi leida [PyGame ametlikust dokumentatsioonist](https://www.pygame.org/docs/). Ning kui kõigile abivahenditele vaatamata siiski mingi asjaga hätta jääd, siis meie projekti kaustast [`solutions`](https://github.com/taltech-coding/init-pygame-2024/tree/main/solutions) võid leida ka ülesannete koostajate lahendused. Tunnis kasutatud slaidiesitlust on võimalik järele vaadata [siit](https://docs.google.com/presentation/d/1Kj0-HHEm0Q8D1UfS0NveYcHH7L0ojF122bEKoPZocus/edit)!
 
 ## Sissejuhatus
-Oled praktikant ja sinu ülesandeks on anda viimane lihv tulevasele AAAA mängule "Flappy Ago: init2024 edition"!
+Oled praktikant ja sinu ülesandeks on anda viimane lihv tulevasele AAAA mängule "Flappy Tux: VOCO edition"!
 
 Aga oh aeg - pool koodi on kogemata ära kustunud, sest üks töötajatest unustas oma muudatused salvestada!
 
@@ -36,7 +36,7 @@ Enne programmeerima hakkamist tuleb meil avada kooditöötlusprogramm PyCharm, l
 
 ### 🐦 Linnu loomine
 
-Esiteks on meil vaja sisse laadida pilt linnukesest. Meil on sulle juba `images` kaustas ette antud pilt Agost, keda võid "linnukesena" kasutada: `images/bird.png`.
+Esiteks on meil vaja sisse laadida pilt linnukesest. Meil on sulle juba `images` kaustas ette antud pilt Tuxist, keda võid "linnukesena" kasutada: `images/bird.png`.
 
 Et pilt sisse laadida, muudame `resources.py` faili. Näidisena on meil juba eelnevalt muutujasse `background_img` laetud taustapilt. Nüüd lae ise `"images/bird.png"` või mõni muu meeldiv pilt linnupildiks sisse. Muutuja nimeks peab olema `bird_img`.
 
