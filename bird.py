@@ -6,7 +6,7 @@ from game import screen
 
 class Bird:
     """
-    Class representing the bird in the Flappy Tux game.
+    Class representing the bird in the Flappy Ago game.
 
     :param x (int): The x-coordinate of the bird's position.
     :param y (int): The y-coordinate of the bird's position.

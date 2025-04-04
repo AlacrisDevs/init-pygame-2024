@@ -14,7 +14,7 @@ from resources import *
 # You can set constants in the constants.py file!
 
 # Change the window text
-pygame.display.set_caption("FlappyTux 2024")
+pygame.display.set_caption("FlappyAgo 2025")
 try:
     pygame.display.set_icon(bird_img)
 except NameError:
@@ -29,7 +29,7 @@ pipes = []
 
 def main():
     """
-    Main function to run the FlappyTux game.
+    Main function to run the FlappyAgo game.
 
     This function handles the main game loop, including event handling,
     updating the game state, rendering the game objects, detecting collisions,

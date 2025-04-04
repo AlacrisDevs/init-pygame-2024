@@ -1,6 +1,6 @@
-![Flappy Tux - VOCO edition](images/logo.png "Flappy Tux - VOCO edition")
+![Flappy Ago - MINIT2025 edition](images/logo.png "Flappy Ago - MINIT2025 edition")
 
-# VOCO - mängu töötuba
+# MINIT - mängu töötuba
 
 - [Abivahendid](#abivahendid)
 - [Sissejuhatus](#sissejuhatus)
@@ -15,30 +15,46 @@
   - [⭐ Boonusülesanded](#-boonus%C3%BClesanded)
 
 ## Abivahendid
-Kõige olulisem abivahend selles töötoas on **oskus küsida küsimusi**. Küsimusi soovitame julgelt küsida klassis ringi liikuvate **abiõppejõudude käest**, kes on meeleldi valmis vastama kõigile küsimustele, mis tekkida võivad. Ära tunned abiõppejõu rohelise TalTechi pusa järgi. Kui abiõppejõud Sinu küsimusele vastata ei oska, siis tasub appi võtta [**Dr. Google**](https://google.ee). Väga suure tõenäosusega on keegi sama probleemiga juba maadelnud, ning sellele ka lahenduse leidnud. Veel võid abi leida [PyGame ametlikust dokumentatsioonist](https://www.pygame.org/docs/). Ning kui kõigile abivahenditele vaatamata siiski mingi asjaga hätta jääd, siis meie projekti kaustast [`solutions`](https://github.com/taltech-coding/init-pygame-2024/tree/main/solutions) võid leida ka ülesannete koostajate lahendused. Tunnis kasutatud slaidiesitlust on võimalik järele vaadata [siit](https://docs.google.com/presentation/d/1Kj0-HHEm0Q8D1UfS0NveYcHH7L0ojF122bEKoPZocus/edit)!
+Kõige olulisem abivahend selles töötoas on **oskus küsida küsimusi**. Küsimusi soovitame julgelt küsida klassis ringi
+liikuvate **abiõppejõudude käest**, kes on meeleldi valmis vastama kõigile küsimustele, mis tekkida võivad. Ära tunned
+abiõppejõu musta TalTechi pusa või t-särgi järgi. Kui abiõppejõud Sinu küsimusele vastata ei oska, siis tasub appi võtta
+[**Dr. Google**](https://google.ee). Väga suure tõenäosusega on keegi sama probleemiga juba maadelnud, ning sellele ka lahenduse
+leidnud. Veel võid abi leida [PyGame ametlikust dokumentatsioonist](https://www.pygame.org/docs/). Ning kui kõigile abivahenditele vaatamata
+siiski mingi asjaga hätta jääd, siis meie projekti kaustast [`solutions`](https://github.com/taltech-coding/init-pygame-2024/tree/main/solutions) võid leida ka ülesannete koostajate
+lahendused. Tunnis kasutatud slaidiesitlust on võimalik järele vaadata
+[siit](https://docs.google.com/presentation/d/17bwAzKgsy6hG3zJu4hbubYgroGwYZy9pT4Idesi9Hmo/edit)!
 
 ## Sissejuhatus
-Oled praktikant ja sinu ülesandeks on anda viimane lihv tulevasele AAAA mängule "Flappy Tux: VOCO edition"!
+Oled praktikant ja sinu ülesandeks on anda viimane lihv tulevasele AAAA mängule "Flappy Ago: MINIT2025 edition"!
 
 Aga oh aeg - pool koodi on kogemata ära kustunud, sest üks töötajatest unustas oma muudatused salvestada!
 
-Õnneks on jäänud alles varasemad arendaja juhised koodi dokumentatsioonis, seega saad selle abil koodi uuesti valmis kirjutada ja mängu jõuab veel õigel ajal Steami üles panna!
+Õnneks on jäänud alles varasemad arendaja juhised koodi dokumentatsioonis, seega saad selle abil koodi uuesti valmis
+kirjutada ja mängu jõuab veel õigel ajal Steami üles panna!
 
 Mäng on loodud mängumootor [PyGame](https://www.pygame.org/docs/) abil.
 
 ## Ülesanded
 
-Oleme sulle ette valmistanud ülesanded ning ka lahendamiseks vajalikud juhtnöörid. Kui vajad abi, tõsta julgelt käsi 🙋‍♀️ või küsi Dr. Google-ilt. Peaasi on see, et täna siit midagi õpiksid!
+Oleme sulle ette valmistanud ülesanded ning ka lahendamiseks vajalikud juhtnöörid. Kui vajad abi, tõsta julgelt käsi 🙋‍♀️
+või küsi Dr. Google-ilt. Peaasi on see, et täna siit midagi õpiksid!
 
 ### 🐍 PyGame paigaldamine
 
-Enne programmeerima hakkamist tuleb meil avada kooditöötlusprogramm PyCharm, laadida alla meie kood, ning paigaldada PyGame. Kõik kolm sammu teeme koos tunnis läbi. PyGame paigaldamiseks on vajalik avada PyCharmis Terminal (all vasakul, näeb välja nagu `>_`. Sinna tuleb sisestada käsklus `pip install pygame` ning vajutada ENTER. Kui tekib mingi probleem, siis tõsta julgelt käsi, kõik abiõppejõud ongi siin selleks, et teid aidata! Pärast seda saame hakata mängu koodi kallal tööd tegema. 
+Enne programmeerima hakkamist tuleb meil avada kooditöötlusprogramm PyCharm, laadida alla meie kood, ning paigaldada
+PyGame. Kõik kolm sammu teeme koos tunnis läbi. PyGame paigaldamiseks on vajalik avada PyCharmis Terminal (all vasakul,
+näeb välja nagu `>_`. Sinna tuleb sisestada käsklus `pip install pygame` ning vajutada ENTER. Kui tekib mingi probleem,
+siis tõsta julgelt käsi, kõik abiõppejõud ongi siin selleks, et teid aidata! Pärast seda saame hakata mängu koodi kallal
+tööd tegema. 
 
 ### 🐦 Linnu loomine
 
-Esiteks on meil vaja sisse laadida pilt linnukesest. Meil on sulle juba `images` kaustas ette antud pilt Tuxist, keda võid "linnukesena" kasutada: `images/bird.png`.
+Esiteks on meil vaja sisse laadida pilt linnukesest. Meil on sulle juba `images` kaustas ette antud pilt Agost, keda
+võid "linnukesena" kasutada: `images/bird.png`.
 
-Et pilt sisse laadida, muudame `resources.py` faili. Näidisena on meil juba eelnevalt muutujasse `background_img` laetud taustapilt. Nüüd lae ise `"images/bird.png"` või mõni muu meeldiv pilt linnupildiks sisse. Muutuja nimeks peab olema `bird_img`.
+Et pilt sisse laadida, muudame `resources.py` faili. Näidisena on meil juba eelnevalt muutujasse `background_img` laetud
+taustapilt. Nüüd lae ise `"images/bird.png"` või mõni muu meeldiv pilt linnupildiks sisse. Muutuja nimeks peab olema
+`bird_img`.
 
 > `bird_img = ???`
 
@@ -59,13 +75,17 @@ Ava PyCharmis fail `flappy_bird.py`, vajuta ▶️ play nupule, ning näed, et s
 
 1. **Linnuke peaks gravitatsiooni tagajärjel pidevalt kukkuma.**
 
-    Linnukesel on muutuja `self.velocity`, mis näitab linnu kiirust y-koordinaadi suhtes. Peaksime igal kaadril e. frame'il liitma sellele kiirusele gravitatsiooni kiirenduse.
+    Linnukesel on muutuja `self.velocity`, mis näitab linnu kiirust y-koordinaadi suhtes. Peaksime igal kaadril e.
+2. frame'il liitma sellele kiirusele gravitatsiooni kiirenduse.
 
-    Loo faili `constants.py` muutuja `GRAVITY` - selle väärtuseks sea `1.2`. Võid muidugi seda väärtust timmida, et mängu huvitavamaks muuta. 😉
+    Loo faili `constants.py` muutuja `GRAVITY` - selle väärtuseks sea `1.2`. Võid muidugi seda väärtust timmida, et
+3. mängu huvitavamaks muuta. 😉
 
-    Seejärel otsi failist `bird.py` üles `class Bird`. Selle all on funktsioonid, mis seonduvad linnuga. Iga kaader kutsutakse välja `def update()` funktsiooni. Sinna alla pead kirjutama kiirenduse koodi!
+    Seejärel otsi failist `bird.py` üles `class Bird`. Selle all on funktsioonid, mis seonduvad linnuga. Iga kaader
+4. kutsutakse välja `def update()` funktsiooni. Sinna alla pead kirjutama kiirenduse koodi!
 
-    Lisaks `self.velocity`-le `GRAVITY` liitmise tuleb igal kaadril `self.y`-ile, ehk linnu y-koordinaadile, liita tema kiirus y-koordinaadi suhtes, ehk `self.velocity`.
+    Lisaks `self.velocity`-le `GRAVITY` liitmise tuleb igal kaadril `self.y`-ile, ehk linnu y-koordinaadile, liita tema
+5. kiirus y-koordinaadi suhtes, ehk `self.velocity`.
 
     <details>
     <summary>💡 Kuidas luua, liita ja lahutada muutujaid Python-is?</summary>
@@ -90,7 +110,8 @@ Ava PyCharmis fail `flappy_bird.py`, vajuta ▶️ play nupule, ning näed, et s
 
     Siin uuendame linnukese kiirust, kuid seekord sätime linnu kiiruse hüppamise kiiruseks.
 
-    Et PyGame arvutab koordinaate "tagurpidi" (numbrid suurenevad ülevalt alla liikudes), peaks üles liikumiseks kiirus olema negatiivne.
+    Et PyGame arvutab koordinaate "tagurpidi" (numbrid suurenevad ülevalt alla liikudes), peaks üles liikumiseks kiirus
+3. olema negatiivne.
 
     Arvesta, et ekraani miinimumpunkt (0,0) asub ekraani vasakul üleval nurgas ja maksimumpunkt all paremal nurgas!
 
@@ -112,7 +133,8 @@ Ava PyCharmis fail `flappy_bird.py`, vajuta ▶️ play nupule, ning näed, et s
 
     Loo faili `constants.py` muutuja `BIRD_JUMP`, ning sea selle väärtuseks `15`.
 
-    Sulle on faili `bird.py` valmis tehtud `def flap()` funktsioon, mida kutsutakse välja siis, kui vajutatakse tühikule.
+    Sulle on faili `bird.py` valmis tehtud `def flap()` funktsioon, mida kutsutakse välja siis, kui vajutatakse
+    tühikule.
 
     Selle funktsiooni all peaksid `self.velocity` muutujaks seadma NEGATIIVSE `BIRD_JUMP`-i väärtuse.
 
@@ -120,15 +142,18 @@ Ava PyCharmis fail `flappy_bird.py`, vajuta ▶️ play nupule, ning näed, et s
 
     Selle jaoks tuleb realiseerida failis `bird.py` funktsioon `check_collision_with_floor()`. 
     
-    Ülevalt alla liikudes y-koordinaat suureneb. Seega, juhul kui linnu y-koordinaat on suurem kui ekraani kõrgus, millest on lahutatud linnupildi enda kõrgus, siis tuleks tagastada `True`. Igal muul juhul tuleks tagastada `False`.
+    Ülevalt alla liikudes y-koordinaat suureneb. Seega, juhul kui linnu y-koordinaat on suurem kui ekraani kõrgus,
+    millest on lahutatud linnupildi enda kõrgus, siis tuleks tagastada `True`. Igal muul juhul tuleks tagastada `False`.
 
     Vastavalt eelnevatele lausetele saame sellesse funktsiooni kirjutada järgneva `if` kontroll-lause:
     
-    Juhul kui `self.y` on suurem kui `SCREEN_HEIGHT - 50`, siis tagasta (ehk `return`) `True`, muul juhul (`else`) tagasta `False`. 
+    Juhul kui `self.y` on suurem kui `SCREEN_HEIGHT - 50`, siis tagasta (ehk `return`) `True`, muul juhul (`else`)
+    tagasta `False`. 
 
 ### 🏃‍♂️💨 Torud liikuma
 
-Lisada `pipe.py` failis `def update():` meetodi alla koodijupp, mis iga kaader lahutab `self.x`-ist konstandi `PIPE_VELOCITY`.
+Lisa `pipe.py` failis `def update():` meetodi alla koodijupp, mis iga kaader lahutab `self.x`-ist konstandi
+`PIPE_VELOCITY`.
 
 Toru liikumise kiirust (`PIPE_VELOCITY`) võid soovi korral timmida failis `constants.py`.
 
@@ -137,20 +162,26 @@ Toru liikumise kiirust (`PIPE_VELOCITY`) võid soovi korral timmida failis `cons
 
 Iga natukese aja tagant peaks tekkima ekraanile uus toru, mille vahelt peab linnuke läbi lendama.
 
-Meil on järjend (justkui nimekiri) torudest, mida hoitakse muutujas `pipes`. See muutuja asub failis `flappy_bird.py`. Kui soovime pääseda ligi mõnele kindlale elemendile selles järjendis, siis seda saame teha \[kantsulgude\] abil.
+Meil on järjend (justkui nimekiri) torudest, mida hoitakse muutujas `pipes`. See muutuja asub failis `flappy_bird.py`.
+Kui soovime pääseda ligi mõnele kindlale elemendile selles järjendis, siis seda saame teha \[kantsulgude\] abil.
 
-Kui soovime saada kätte järjendist elemendi (meil siis toru) indeksiga 0, siis peaksime kasutama viidet `pipes[0]`. Tasub tähele panna, et miinusmärgiga indeksid võimaldavad järjendi elemente kätte saada "tagantpoolt". Seega viide `pipes[-1]` annab meile selle järjendi viimase elemendi.
+Kui soovime saada kätte järjendist elemendi (meil siis toru) indeksiga 0, siis peaksime kasutama viidet `pipes[0]`.
+Tasub tähele panna, et miinusmärgiga indeksid võimaldavad järjendi elemente kätte saada "tagantpoolt". Seega viide
+`pipes[-1]` annab meile selle järjendi viimase elemendi.
 
 Uute torude tekitamiseks tuleb kirjutada paar rida koodi. Selleks sobiv koht on failis `flappy_bird.py`. 
 
 > Õiget kohta näitab kommentaar `# TODO: Generate new pipes`!
 
-Mõistlik oleks näiteks kontrollida, kas järjendi viimane element (`pipes[-1]`) on jõudnud x-teljel koordinaadile, mis on väiksem kui konstandis `DISTANCE_BETWEEN_PIPES` määratud kaugus. Viimase toru x-koordinaati saame küsida viitega `pipes[-1].x`.
+Mõistlik oleks näiteks kontrollida, kas järjendi viimane element (`pipes[-1]`) on jõudnud x-teljel koordinaadile, mis on
+väiksem kui konstandis `DISTANCE_BETWEEN_PIPES` määratud kaugus. Viimase toru x-koordinaati saame küsida viitega
+`pipes[-1].x`.
 
 Meeldetuletuseks: liikudes paremalt vasakule koordinaatide numbriline suurus väheneb!
 
 <details>
-<summary>💡 Proovi ise mõelda välja, kuidas sellist kontrolli koodis vormistada! Kui oled oma lahenduse välja mõelnud, siis kontrolli siit, kas Sinu lahendus oli õige.</summary>
+<summary>💡 Proovi ise mõelda välja, kuidas sellist kontrolli koodis vormistada! Kui oled oma lahenduse välja mõelnud,
+siis kontrolli siit, kas Sinu lahendus oli õige.</summary>
 
 ```py
 if pipes[-1].x < DISTANCE_BETWEEN_PIPES:
@@ -160,7 +191,10 @@ if pipes[-1].x < DISTANCE_BETWEEN_PIPES:
 
 &nbsp;
 
-Juhul kui eelnevalt kirjeldatud tingimus on tõene, siis järelikult on kätte jõudnud õige aeg tekitada uus toru! Selleks kasutame järjendi meetodit `append`, et lisada järjendi lõppu uus toru. Sobiv koodijupp oleks näiteks `pipes.append(Pipe())`. Meenutame veel, et kui mõni koodirida on meil lõppenud kooloniga `:`, siis järgnevat rida peame koodivea vältimiseks alustama taandreaga (selleks saad kasutada klahvi Tab).
+Juhul kui eelnevalt kirjeldatud tingimus on tõene, siis järelikult on kätte jõudnud õige aeg tekitada uus toru! Selleks
+kasutame järjendi meetodit `append`, et lisada järjendi lõppu uus toru. Sobiv koodijupp oleks näiteks
+`pipes.append(Pipe())`. Meenutame veel, et kui mõni koodirida on meil lõppenud kooloniga `:`, siis järgnevat rida peame
+koodivea vältimiseks alustama taandreaga (selleks saad kasutada klahvi Tab, mis asub klaviatuuri üleval vasakus nurgas).
 
 ### 🔢 Skoori arvutamine
 
@@ -168,11 +202,13 @@ Torude vahelt läbimine peaks mängija skoorile andma plusspunkti.
 
 Esiteks on meil vaja kirjutada kood, mis arvutab välja, kas mängija on torust läbi saanud.
 
-Meil on teada, kus asuvad toru ja linnuke koordinaatteljestikul. Siis kui linnukese asukoht x-teljel on suurem kui toru keskpunkt, lisame mängijale punkti.
+Meil on teada, kus asuvad toru ja linnuke koordinaatteljestikul. Siis kui linnukese asukoht x-teljel on suurem kui toru
+keskpunkt, lisame mängijale punkti.
 
 Torul on `has_been_passed` muutuja, mis võib olla `True` või `False` ehk tõene või väär.
 
-Esiteks otsi failist `flappy_bird.py` üles koodijupp, kus me uuendame iga toru asukohta, ning joonistame igat toru ekraanile. 
+Esiteks otsi failist `flappy_bird.py` üles koodijupp, kus me uuendame iga toru asukohta, ning joonistame igat toru
+ekraanile. 
 
 <details>
 <summary>🧐 See peaks välja nägema umbes selline:</summary>
@@ -194,14 +230,16 @@ for pipe in pipes.copy():
 
 Selle `for` loopi alla, kus me igast torust üle käime, peaksime lisama järgneva `if` kontrolli:
 
-Kui `has_been_passed` on `False` ning `bird.x` on suurem kui `pipe.x + 25`, säti, et `has_been_passed` on tõene ehk `True`. Seejärel peaksime ka `score` muutujale liitma ühe. Võiks ka mängida mingit heliefekti? 🤔
+Kui `has_been_passed` on `False` ning `bird.x` on suurem kui `pipe.x + 25`, säti, et `has_been_passed` on tõene ehk
+`True`. Seejärel peaksime ka `score` muutujale liitma ühe. Võiks ka mängida mingit heliefekti? 🤔
 
 
 ### 🔊 Heliefektide lisamine
 
 Esiteks peame sisse laadima helifailid, et saaksime neid mängu jooksul mängida.
 
-Ava fail `resources.py`, ning lisa sinna `hurt_sound` ja `point_sound` muutujad. Abiks vaata, kuidas `flap_sound` on loodud.
+Ava fail `resources.py`, ning lisa sinna `hurt_sound` ja `point_sound` muutujad. Abiks vaata, kuidas `flap_sound` on
+loodud.
 
 |**muutuja nimi**|**heliefekti asukoht**|
 |-|-|
