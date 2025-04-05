@@ -53,7 +53,7 @@ Esiteks on meil vaja sisse laadida pilt linnukesest. Meil on sulle juba `images`
 võid "linnukesena" kasutada: `images/bird.png`.
 
 Et pilt sisse laadida, muudame `resources.py` faili. Näidisena on meil juba eelnevalt muutujasse `background_img` laetud
-taustapilt. Nüüd lae ise `"images/bird.png"` või mõni muu meeldiv pilt linnupildiks sisse. Muutuja nimeks peab olema
+taustapilt. Nüüd lae ise `images/bird.png` või mõni muu meeldiv pilt linnupildiks sisse. Muutuja nimeks peab olema
 `bird_img`.
 
 > `bird_img = ???`
@@ -76,16 +76,16 @@ Ava PyCharmis fail `flappy_bird.py`, vajuta ▶️ play nupule, ning näed, et s
 1. **Linnuke peaks gravitatsiooni tagajärjel pidevalt kukkuma.**
 
     Linnukesel on muutuja `self.velocity`, mis näitab linnu kiirust y-koordinaadi suhtes. Peaksime igal kaadril e.
-2. frame'il liitma sellele kiirusele gravitatsiooni kiirenduse.
+    frame'il liitma sellele kiirusele gravitatsiooni kiirenduse.
 
     Loo faili `constants.py` muutuja `GRAVITY` - selle väärtuseks sea `1.2`. Võid muidugi seda väärtust timmida, et
-3. mängu huvitavamaks muuta. 😉
+    mängu huvitavamaks muuta. 😉
 
     Seejärel otsi failist `bird.py` üles `class Bird`. Selle all on funktsioonid, mis seonduvad linnuga. Iga kaader
-4. kutsutakse välja `def update()` funktsiooni. Sinna alla pead kirjutama kiirenduse koodi!
+    kutsutakse välja `def update()` funktsiooni. Sinna alla pead kirjutama kiirenduse koodi!
 
     Lisaks `self.velocity`-le `GRAVITY` liitmise tuleb igal kaadril `self.y`-ile, ehk linnu y-koordinaadile, liita tema
-5. kiirus y-koordinaadi suhtes, ehk `self.velocity`.
+    kiirus y-koordinaadi suhtes, ehk `self.velocity`.
 
     <details>
     <summary>💡 Kuidas luua, liita ja lahutada muutujaid Python-is?</summary>
@@ -111,7 +111,7 @@ Ava PyCharmis fail `flappy_bird.py`, vajuta ▶️ play nupule, ning näed, et s
     Siin uuendame linnukese kiirust, kuid seekord sätime linnu kiiruse hüppamise kiiruseks.
 
     Et PyGame arvutab koordinaate "tagurpidi" (numbrid suurenevad ülevalt alla liikudes), peaks üles liikumiseks kiirus
-3. olema negatiivne.
+    olema negatiivne.
 
     Arvesta, et ekraani miinimumpunkt (0,0) asub ekraani vasakul üleval nurgas ja maksimumpunkt all paremal nurgas!
 
